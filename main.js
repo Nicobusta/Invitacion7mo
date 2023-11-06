@@ -1,5 +1,5 @@
  // Fecha objetivo: 12 de diciembre a las 22:00
- const targetDate = new Date("2023-12-12T22:00:00").getTime();
+ const targetDate = new Date("2023-12-07T22:00:00").getTime();
 
  // Actualiza el temporizador cada segundo
  const timer = setInterval(function() {
@@ -9,7 +9,7 @@
      if (timeRemaining <= 0) {
          // Si la fecha objetivo ya ha pasado
          clearInterval(timer);
-         document.getElementById("countdown").innerHTML = "¡Ha llegado el 12 de diciembre a las 22:00!";
+         document.getElementById("countdown").innerHTML = "¡Ha llegado el 7 de diciembre a las 22:00!";
      } else {
          // Calcula días, horas, minutos y segundos restantes
          const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
