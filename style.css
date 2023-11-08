@@ -131,7 +131,7 @@ h2{
     width: 60%;
 }
 
-.fiesta a{
+a{
     background-color: var(--colorPrimario);
     width: 80%;
     border-radius: 20px;
@@ -151,3 +151,4 @@ h2{
     border-radius: 10px;
     width: 80%;
 }
+
