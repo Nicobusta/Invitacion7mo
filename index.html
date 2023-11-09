@@ -18,7 +18,7 @@
             <h1>Promo 2023</h1>
             <h3>Nuestro Egreso</h3>
         </article>
-        <img src="./assets/WhatsApp Image 2023-10-24 at 12.30.03.png" alt="" srcset="">
+        <img src="./assets/WhatsApp Image 2023-10-24 at 12.30.03.png">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
             <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/>
           </svg>
@@ -65,8 +65,8 @@
         </article>
         <article class="card">
             <h3>Lugar</h3>
-            <h5>Club Deportivo</h5>
-            <a href="#">Agendar</a>
+            <h5>Club Deportivo Chañar</h5>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#Mapa">Ver más</a>
         </article>
         <article class="card">
             <h3>Direccion</h3>
@@ -128,7 +128,7 @@
                 <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
               </svg>
             <h5 class="mt-4 w-75">Información adicional para tener en cuenta</h5>
-            <a href="#" href="#" data-bs-toggle="modal" data-bs-target="#TipsyNotas">+ info</a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#TipsyNotas">+ info</a>
         </artticle>
         <artticle class="card d-flex flex-column align-items-center w-100">
             <h3 class="my-4">Instagram</h3>
@@ -141,7 +141,22 @@
   
     </section>
   
-  <!-- Modal dress code -->
+   <!-- Modal mapa -->
+   <div class="modal fade" id="Mapa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Lugar</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d216.42040269554997!2d-63.94135506070335!3d-29.78555062777322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1699490965344!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- Modal dress code -->
   <div class="modal fade" id="DressCode" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
@@ -150,7 +165,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <h4>¡Vestite como quieras, pero no te olvides de la buena onda y las ganas de pasarl súper!</h4>
+          <h3>¡Vestite como quieras, pero no te olvides de la buena onda y las ganas de pasarla súper!</h3>
         </div>
       </div>
     </div>
@@ -165,7 +180,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <h4>¡Por favor te pedimos puntualidad, ya que comenzaremos a horaria!</h4>
+          <h3>¡Por favor te pedimos puntualidad, ya que comenzaremos a horaria!</h2>
         </div>
       </div>
     </div>

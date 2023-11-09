@@ -41,7 +41,6 @@ h2{
 }
 
 .inicio{
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,7 +94,7 @@ h2{
 }
 .faltan{
     width: 100%;
-    margin-top: -7rem;
+
 }
 
 .divisor{
@@ -152,3 +151,16 @@ a{
     width: 80%;
 }
 
+.modal-content{
+    background-color: black;
+    border: 1px solid var(--colorPrimario);
+}
+
+.btn-close{
+    background-color: var(--colorPrimario);
+}
+
+iframe{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
