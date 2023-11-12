@@ -164,3 +164,28 @@ iframe{
     width: 100%;
     aspect-ratio: 1/1;
 }
+
+.audio{
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    z-index: 999;
+    fill: var(--colorPrimario);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background-color: #000000;
+    border: 1px solid var(--colorPrimario);
+}
+
+.audio svg{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+footer{
+    background-color: var(--colorPrimario);
+    color: var(--colorSecundario);
+}

@@ -38,3 +38,32 @@
     // Redirecciona al enlace de Google Calendar
     window.open(googleCalendarUrl);
 });
+
+
+//audio
+var audio = document.getElementById("miAudio");
+  
+function toggleAudio() {
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+    //audio.currentTime = 0; // Reinicia la reproducción al principio del archivo
+  }
+}
+
+const myModal = document.querySelector('#modalAudio')
+myModal.style.display = 'block'
+
+var conMusica= document.querySelector('#conMusica')
+var sinMusica= document.querySelector('#sinMusica')
+
+conMusica.addEventListener('click', function(){
+  myModal.style.display = 'none'
+  audio.play();
+})
+
+sinMusica.addEventListener('click', function(){
+  myModal.style.display = 'none'
+})
+
