@@ -52,7 +52,7 @@ h2{
 
 .inicio .comillas{
     fill:var(--colorPrimario);
-    width: 2.5rem;
+    width: 32px;
     height: auto;
     margin: 0;
 }
