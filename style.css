@@ -112,6 +112,14 @@ h2{
     
 }
 
+.titulo{
+    font-size: 2rem;
+    border-top: 1px solid var(--colorPrimario);
+    border-bottom: 1px solid var(--colorPrimario);
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
 .tiempo{
     display: flex;
     justify-content: space-evenly;
