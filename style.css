@@ -160,6 +160,9 @@ a{
     border-radius: 10px;
     width: 80%;
 }
+.monio{
+ width: 120px;
+}
 
 .modal-content{
     background-color: black;
