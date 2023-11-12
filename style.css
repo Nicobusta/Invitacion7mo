@@ -50,11 +50,11 @@ h2{
     margin-top: 4rem;
 }
 
-.inicio svg{
+.inicio .comillas{
     fill:var(--colorPrimario);
-    width: 4rem;
+    width: 2.5rem;
     height: auto;
-    
+    margin: 0;
 }
 
 .rotar{
@@ -118,6 +118,7 @@ h2{
     border-bottom: 1px solid var(--colorPrimario);
     padding: 0.5rem;
     margin: 1rem;
+    
 }
 
 .tiempo{
