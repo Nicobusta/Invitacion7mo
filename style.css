@@ -15,7 +15,8 @@ body{
     text-align: center;
     font-family: var(--fontTexto);
     background-color: var(--colorSecundario);
-    color:var(--colorPrimario)
+    color:var(--colorPrimario);
+    font-size: 16px;
 }
 img{
     width: 100%;
